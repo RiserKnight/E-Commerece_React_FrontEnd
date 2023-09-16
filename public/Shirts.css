@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section-col {
+  position: relative;
+  margin-top: 5%;
+}
+.fav-icon {
+  position: absolute;
+  top: 1%;
+  right: 12%;
+}
+.feature-box-men {
+  height: 200px;
+  width: 160px;
+  border: solid 1px #cef7f3;
+  margin-left: 5%;
+}
+
+.product-description {
+  text-align: center;
+  color: #222;
+  margin: 1px;
+  font-size: 1.2rem;
+  font-family: "Arial Unicode";
+}
+#discount {
+  font-size: 0.9rem;
+  font-family: "Arvo", serif;
+  color: green;
+}
+.product-description-div {
+  margin-top: 3%;
+}
+#rate {
+  font-family: "Arvo", serif;
+  font-size: 1rem;
+  color: #3282b8;
+}

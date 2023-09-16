@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin-top: 18vh;
+  background-color: #fff !important;
+  /* background-image: url("https://www.transparenttextures.com/patterns/bright-squares.png");*/
+}
+
+/*               Header             */
+.nav_bar {
+  margin-top: 0;
+  height: 6.4vh;
+  padding-top: 0;
+}
+
+.compnay_logo {
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 500;
+  font-size: 1.15rem;
+}
+
+.extra_nav {
+  color: #222;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+}
+
+#nav_bar2 {
+  top: 6.4vh;
+  background-color: #fff;
+  margin-bottom: 0;
+  margin-top: 0%;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.mr-auto {
+  white-space: nowrap;
+}
+
+#left_button {
+  margin-left: 10%;
+  color: #222;
+  padding-left: 0;
+  padding-right: 0;
+  margin-right: 5%;
+  border-bottom: 4px solid #fff;
+  font-size: 0.96rem;
+}
+
+#women,
+#cups,
+#caps,
+#mobileCover {
+  color: hsl(0, 0%, 13%);
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-bottom: 4px solid #fff;
+  font-size: 0.96rem;
+}
+
+.search_bar {
+  display: inline-flex;
+  margin-right: 1.1%;
+  width: 20vw;
+  position: relative;
+  margin-bottom: 7px;
+}
+
+.search_place {
+  margin-right: 2%;
+  border-radius: 0.5rem;
+  font-size: 0.72rem;
+  padding-left: 10px;
+  margin: 0px;
+  width: 100%;
+  outline: none;
+  height: 28px;
+}
+
+#right_button {
+  border-radius: 0.5rem;
+  background-color: rgb(238, 238, 238);
+  border-color: rgb(238, 238, 238);
+  color: #222;
+
+  padding-top: 3px;
+  padding-bottom: 8px;
+  padding-left: 14px;
+  padding-right: 10px;
+
+  position: absolute;
+  right: 0px;
+  border: none;
+  top: 0px;
+  height: 31px;
+  cursor: pointer;
+
+  transform: translateX(2px);
+}
+
+.nav-link {
+  display: block;
+  padding: 0.5rem 0.7rem;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+}
